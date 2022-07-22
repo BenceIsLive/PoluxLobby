@@ -1,0 +1,26 @@
+#---------------------------------------------------------
+#  ____       _            _          _     _
+# |  _ \ ___ | |_   ___  _| |    ___ | |__ | |__  _   _
+# | |_) / _ \| | | | \ \/ / |   / _ \| '_ \| '_ \| | | |
+# |  __/ (_) | | |_| |>  <| |__| (_) | |_) | |_) | |_| |
+# |_|   \___/|_|\__,_/_/\_\_____\___/|_.__/|_.__/ \__, |
+#                                                 |___/
+#----------------------------------------------------------
+
+lobby-selector-item: "CLOCK"
+lobby-selector-title: "Lobby Selector"
+
+lobby-selector:
+  name: "&aLobby Selector"
+  lore:
+    - "Druk op mij om van lobby te switchen"
+  amount: 1
+  slot: 8
+
+items:
+  1:
+    item: 'COMPASS'
+    slot: 10
+    name: '&aLobby 1'
+    lore:
+      - "&7Join deze lobby"

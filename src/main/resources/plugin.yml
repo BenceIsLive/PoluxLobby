@@ -1,0 +1,8 @@
+name: PoluxLobby
+version: '${project.version}'
+main: dev.bence.poluxlobby.PoluxLobby
+api-version: 1.16
+authors: [ 7Bence ]
+
+depend: [PlaceholderAPI]
+

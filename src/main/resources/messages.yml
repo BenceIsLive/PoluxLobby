@@ -1,0 +1,31 @@
+#---------------------------------------------------------
+#  ____       _            _          _     _
+# |  _ \ ___ | |_   ___  _| |    ___ | |__ | |__  _   _
+# | |_) / _ \| | | | \ \/ / |   / _ \| '_ \| '_ \| | | |
+# |  __/ (_) | | |_| |>  <| |__| (_) | |_) | |_) | |_| |
+# |_|   \___/|_|\__,_/_/\_\_____\___/|_.__/|_.__/ \__, |
+#                                                 |___/
+#----------------------------------------------------------
+
+prefix: "&#fbac12&lP&#fbb72e&lo&#fcc24a&ll&#fccd66&lu&#fcd881&lx&#fde39d&lM&#fdeeb9&lC &8&l| "
+
+
+# PlayerHide Messages
+zichtbaarheid-aan: "&7Zichtbaarheid: &aAAN"
+zichtbaarheid-uit: "&7Zichtbaarheid: &cUIT"
+zichtbaarheid-aan-message: "&aAlle spelers zijn weer zichtbaar."
+zichtbaarheid-uit-message: "&cAlle spelers zijn niet meer zichtbaar."
+
+# Join/Quit Messages
+join-message: "&a+ &7%player_name%"
+leave-message: "&c- &7%player_name%"
+
+# Fly Messages
+fly-aan: "&7Fly: &aAAN"
+fly-uit: "&7Fly: &cUIT"
+fly-aan-message: "&aJe fly staat nu aan!"
+fly-uit-message: "&cJe fly staat nu uit!"
+
+# Server switch
+
+server-switch: "&7U wordt verzonden naar de "
