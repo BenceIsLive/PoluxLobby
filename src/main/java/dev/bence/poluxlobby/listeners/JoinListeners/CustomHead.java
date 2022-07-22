@@ -35,6 +35,7 @@ public class CustomHead implements Listener {
             return;
         }
 
+
         skull.setItemMeta(meta);
 
         event.getPlayer().getInventory().setItem(0, skull);
