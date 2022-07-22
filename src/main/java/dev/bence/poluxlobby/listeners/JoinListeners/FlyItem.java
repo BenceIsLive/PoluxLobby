@@ -48,7 +48,7 @@ public class FlyItem implements Listener {
                     player.getInventory().getItemInMainHand().setType(feather);
                     item.setItemMeta(offMeta);
                     player.updateInventory();
-                    player.sendMessage(ChatUtils.format(main.getMessagesFile().getString("prefix") + main.getMessagesFile().getString("fly-aan-message")));
+                    player.sendMessage(ChatUtils.format(main.getMessagesFile().getString("prefix") + main.getMessagesFile().getString("fly-uit-message")));
                 } else {
                     if (e.getHand().equals(EquipmentSlot.HAND)) {
                         fly.add(player.getUniqueId());
@@ -57,7 +57,7 @@ public class FlyItem implements Listener {
                         player.getInventory().getItemInMainHand().setType(feather);
                         item.setItemMeta(onMeta);
                         player.updateInventory();
-                        player.sendMessage(ChatUtils.format(main.getMessagesFile().getString("prefix") + main.getMessagesFile().getString("fly-uit-message")));
+                        player.sendMessage(ChatUtils.format(main.getMessagesFile().getString("prefix") + main.getMessagesFile().getString("fly-aan-message")));
                     }
 
                 }

@@ -29,3 +29,8 @@ fly-uit-message: "&cJe fly staat nu uit!"
 # Server switch
 
 server-switch: "&7U wordt verzonden naar de "
+
+# Flags
+
+block-break-off: "&7Je kunt geen blokken breken!"
+block-place-off: "&7Je kunt geen blokken plaatsen!"

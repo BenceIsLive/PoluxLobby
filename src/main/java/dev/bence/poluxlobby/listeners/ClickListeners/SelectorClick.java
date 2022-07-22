@@ -36,7 +36,7 @@ public class SelectorClick implements Listener {
 
     public void checkSlotStatus(int slotNumber1, int slotNumber2, ConfigurationSection keySection, Player player) {
         if (slotNumber1 == slotNumber2) {
-                BungeeUtils.connect(player, keySection.getString("server"));
+        BungeeUtils.connect(player, keySection.getString("server"));
 
         }
     }

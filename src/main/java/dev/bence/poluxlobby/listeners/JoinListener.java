@@ -10,6 +10,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.SkullMeta;
 
 public class JoinListener implements Listener {
 
@@ -31,11 +32,12 @@ public class JoinListener implements Listener {
                 .setAmount(main.getSelectorFile().getInt("server-selector.amount"))
                 .build();
 
-        ItemStack playerItem = new ItemBuilder(Material.getMaterial(main.getPlayerFile().getString("player-settings-item")))
-                .setName(ChatUtils.format(main.getPlayerFile().getString("player-settings.name")))
-                .setLore(ChatUtils.format(main.getPlayerFile().getStringList("player-settings.lore")))
-                .setAmount(main.getPlayerFile().getInt("player-settings.amount"))
-                .build();
+//        ItemStack playerItem = new ItemBuilder(Material.getMaterial(main.getPlayerFile().getString("player-settings-item")))
+//                .setName(ChatUtils.format(main.getPlayerFile().getString("player-settings.name")))
+//                .setLore(ChatUtils.format(main.getPlayerFile().getStringList("player-settings.lore")))
+//                .setAmount(main.getPlayerFile().getInt("player-settings.amount"))
+//                .build();
+
 
         if (player.hasPermission("poluxmc.fly")) {
             ItemStack flyItem = new ItemBuilder(Material.FEATHER)
@@ -52,8 +54,6 @@ public class JoinListener implements Listener {
                 .setAmount(main.getLobbyFile().getInt("lobby-selector.amount"))
                 .build();
 
-
-
         ItemStack hideItem = new ItemBuilder(Material.LIME_DYE)
                 .setName(ChatUtils.format(main.getMessagesFile().getString("zichtbaarheid-aan")))
                 .build();
@@ -61,7 +61,7 @@ public class JoinListener implements Listener {
 
         e.setJoinMessage(joinMessage);
         player.getInventory().setItem(7, hideItem);
-        player.getInventory().setItem(main.getPlayerFile().getInt("player-settings.slot"), playerItem);
+//        player.getInventory().setItem(main.getPlayerFile().getInt("player-settings.slot"), playerItem);
         player.getInventory().setItem(main.getSelectorFile().getInt("server-selector.slot"), joinItem);
         player.getInventory().setItem(main.getLobbyFile().getInt("lobby-selector.slot"), lobbySelector);
 

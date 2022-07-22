@@ -14,3 +14,16 @@ fly-item:
     - "&7Rechter-klik om je fly aan te zetten!"
   slot: 6
   amount: 1
+
+
+
+#  _____ __    _____ _____ _____
+#  |   __|  |  |  _  |   __|   __|
+#  |   __|  |__|     |  |  |__   |
+#  |__|  |_____|__|__|_____|_____|
+
+item-drop: false
+item-pickup: false
+fall-damage: false
+block-brake: false
+block-place: false

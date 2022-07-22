@@ -17,7 +17,7 @@ import java.util.ArrayList;
 public class PlayerHide implements Listener {
 
 
-    ArrayList<Player> hidden = new ArrayList<>();
+    public ArrayList<Player> hidden = new ArrayList<>();
     PoluxLobby main = PoluxLobby.getInstance();
 
 

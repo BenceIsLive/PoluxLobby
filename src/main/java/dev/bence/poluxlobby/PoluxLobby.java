@@ -1,8 +1,7 @@
 package dev.bence.poluxlobby;
 
 import dev.bence.poluxlobby.listeners.ClickListeners.SelectorClick;
-import dev.bence.poluxlobby.listeners.CustomListener.PlayerChangeServerEvent;
-import dev.bence.poluxlobby.listeners.FlagsListener.ItemDropListener;
+import dev.bence.poluxlobby.listeners.FlagsListeners.*;
 import dev.bence.poluxlobby.listeners.JoinListener;
 import dev.bence.poluxlobby.listeners.JoinListeners.*;
 import dev.bence.poluxlobby.listeners.QuitListener;
@@ -62,8 +61,13 @@ public final class PoluxLobby extends JavaPlugin {
         pm.registerEvents(new PlayerHide(), this);
         pm.registerEvents(new LobbySelector(), this);
         pm.registerEvents(new FlyItem(), this);
-        pm.registerEvents(new ItemDropListener(), this);
         pm.registerEvents(new SelectorClick(), this);
+        pm.registerEvents(new BlockBreakListener(), this);
+        pm.registerEvents(new BlockPlaceListener(), this);
+        pm.registerEvents(new FallDamagerListener(), this);
+        pm.registerEvents(new ItemDropListener(), this);
+        pm.registerEvents(new ItemPickupListener(), this);
+        pm.registerEvents(new CustomHead(), this);
 
     }
     public void registerCommands() {
